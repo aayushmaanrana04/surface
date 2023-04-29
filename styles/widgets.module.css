@@ -1,0 +1,173 @@
+.notes {
+  min-height: 3em;
+  background: #000000cf;
+  /* border-radius: 5px; */
+  padding: 0.5em;
+  max-width: fit-content;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  cursor: pointer;
+  padding-top: 2em;
+  border-top: 2px solid orangered;
+  z-index: 20;
+  height: min-content;
+}
+
+.notes div {
+  display: flex;
+  justify-content: flex-end;
+  height: min-content;
+}
+
+.notes div button {
+  background: red;
+}
+
+.notes:active {
+  border-top: 8px solid orangered;
+}
+
+.notes textarea {
+  font-size: 16px;
+  background: none;
+  outline: none;
+  border: 1px solid white;
+  padding: 4px;
+  border-radius: 2px;
+  color: white;
+}
+
+.todo {
+  min-height: 3em;
+  background: #000000cf;
+  /* border-radius: 5px; */
+  padding: 0.5em;
+  max-width: fit-content;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  cursor: pointer;
+  padding-top: 2em;
+  border-top: 2px solid rgb(128, 255, 0);
+  user-select: none;
+  z-index: 20;
+}
+
+.todo div {
+  display: flex;
+  gap: 1em;
+}
+
+.todoInput {
+  padding: 5px;
+}
+
+.progress {
+  display: flex;
+  width: 100%;
+  height: 1em;
+  background: greenyellow;
+  /* text-align: center; */
+  justify-content: center;
+  align-items: center;
+  color: orangered;
+}
+.checkbox {
+  /* display: block; */
+}
+
+.input {
+  font-size: 16px;
+  background: none;
+  outline: none;
+  padding: 4px;
+  border-radius: 2px;
+  color: white;
+}
+
+.input:active {
+  border: 1px solid white;
+}
+
+.todo:active {
+  border-top: 8px solid rgb(128, 255, 0);
+}
+
+.listitem {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+
+.listitem:nth-of-type(n) {
+  border-bottom: 1px solid white;
+}
+
+.listitem label {
+  display: flex;
+  gap: 1em;
+}
+
+.color {
+  position: absolute;
+  top: 0;
+  left: 0;
+  cursor: pointer;
+  resize: both;
+  overflow: auto;
+  /* border: 1px solid black; */
+  background: #000000cf;
+  padding: 0.3em;
+  /* min-width: 3em;
+  min-height: 3em; */
+  /* max-width: 8em;
+  max-height: 8em; */
+  width: 6em;
+  height: 8em;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3em;
+  z-index: 20;
+}
+
+.color input {
+  outline: none;
+  padding: 2px;
+  max-height: 1em;
+  position: relative;
+}
+
+.color div {
+  height: 100%;
+  width: 100%;
+  background: #000; 
+  position: relative;
+}
+.close {
+  color: white;
+  margin-left: auto;
+}
+.close:hover {
+  color: orangered;
+}
+
+.closeContainer {
+  position: absolute;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  /* max-height: min-content; */
+}

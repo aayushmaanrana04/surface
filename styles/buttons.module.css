@@ -1,0 +1,11 @@
+.toolbtn{
+    display: flex;
+    outline: none;
+    border: 1px solid white;
+    background: beige;
+    width: 2em;
+    aspect-ratio: 1;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+}

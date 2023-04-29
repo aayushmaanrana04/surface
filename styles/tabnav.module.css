@@ -1,0 +1,48 @@
+.tabnav {
+  display: flex;
+  padding-left: 1em;
+  height: 100%;
+  z-index: 50;
+}
+
+.tab {
+  margin-top: 1em;
+  padding: 0.5em;
+  text-decoration: none;
+  color: black;
+  background: #f5f5f5;
+  border-radius: 5px 5px 0 0;
+  border: 1px solid black;
+  width: 5em;
+  margin-right: 2px;
+  font-weight: 400;
+}
+
+.tab:active {
+  background: beige;
+  font-weight: 600;
+}
+
+.accountsection {
+  display: flex;
+  border-radius: 5px;
+  border: 1px solid black;
+  padding: 0.5em;
+  margin: 0.5em;
+  margin-left: auto;
+  align-items: center;
+  gap: 1em;
+  background: whitesmoke;
+  z-index: 50;
+}
+
+.accountsection p {
+  margin: 0;
+}
+
+.img {
+  background: #000;
+  height: 2em;
+  aspect-ratio: 1;
+  border-radius: 50%;
+}
