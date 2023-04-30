@@ -55,7 +55,7 @@ export default function Register(){
                     theme: "light",
                 });
             }
-            else router.push(`/dashboard/${finalResult._id}`);
+            else router.push(`/main`);
         });
     }
     

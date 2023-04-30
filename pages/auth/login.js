@@ -55,11 +55,7 @@ export default function Login() {
             progress: undefined,
             theme: "light",
           });
-        } else
-          router.push({
-            pathname: "/main",
-            query: { email },
-          });
+        } else router.push(`/main`);
       });
   };
 
